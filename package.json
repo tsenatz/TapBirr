@@ -1,0 +1,9 @@
+{
+  "name": "tapbirr",
+  "private": "true",
+  "scripts": {
+    "api": "npm --prefix apps/api run dev",
+    "mobile": "cd apps/mobile && flutter run",
+    "api:test": "npm --prefix apps/api test"
+  }
+}
